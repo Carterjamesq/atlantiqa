@@ -1,0 +1,54 @@
+.banner {
+  padding: 10rem 0 !important;
+  h1 {
+    font-size: 9.5em;
+    font-weight: 100;
+  }
+  h2 {
+    font-size: 9.5em;
+    font-weight: 100;
+    color: $white;
+    -webkit-text-stroke: 1px $black;
+  }
+
+  span {
+    font-size: 9.375rem;
+  }
+
+  .header-top-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.875rem;
+    column-gap: 1.875rem;
+    row-gap: 1.875rem;
+
+    img {
+      animation: rotating 20s linear infinite;
+    }
+
+    @keyframes rotating {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  }
+  .header-bottom-column {
+    display: flex;
+    gap: 1.875rem;
+    column-gap: 1.875rem;
+    row-gap: 1.875rem;
+  }
+}
+
+@media (max-width: 1180px) {
+  .banner {
+    height: 800px;
+    h1 {
+      font-size: 5.5em;
+    }
+  }
+}
