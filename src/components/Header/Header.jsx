@@ -26,9 +26,6 @@ const Header = () => {
             <li>
               <a href="#!">Contact</a>
             </li>
-            <li>
-              <a href="#!">Blog</a>
-            </li>
           </ul>
         </div>
       </div>
