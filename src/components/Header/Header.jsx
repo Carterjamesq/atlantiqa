@@ -4,6 +4,7 @@ import WhatsappIco from "../../assets/whatsapp-icon.svg";
 import DribbbleIco from "../../assets/dribbble-icon.svg";
 import LinkedinIco from "../../assets/linkedin-icon.svg";
 import BehanceIco from "../../assets/behance-icon.svg";
+import TelegramIco from "../../assets/telegram-icon.svg";
 
 const Header = () => {
   return (
@@ -37,9 +38,15 @@ const Header = () => {
         <ul>
           <li>
             <a href="#!">
+              <img src={TelegramIco} alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="#!">
               <img src={WhatsappIco} />
             </a>
           </li>
+          <div className="hr-divider"></div>
           <li>
             <a href="#!">
               <img src={DribbbleIco} />

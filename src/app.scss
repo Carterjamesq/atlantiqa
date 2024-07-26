@@ -23,6 +23,9 @@ p {
 a {
   font-family: "Gayathri";
 }
+img {
+  max-width: 100%;
+}
 .container {
   max-width: 1400px;
   margin: 0 auto;
@@ -47,5 +50,17 @@ a {
 .about {
   p {
     font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 1300px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 90%;
   }
 }
